@@ -33,7 +33,7 @@
                 <div class="d-flex align-center justify-space-between mt-4">
                   <div class="w-25">
                     <v-text-field
-                      v-model="product.qty"
+                      v-model.number="product.qty"
                       type="number"
                       variant="outlined"
                       label="Qty"
